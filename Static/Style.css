@@ -1,0 +1,255 @@
+    @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+    font-family: Arial, Caliber;
+    background-color: white;
+    padding: 5px;
+    border: botter;
+
+    }
+    h1,
+    h2,
+    h3{
+    font-weight: bold;
+    }
+    h1{
+    font-size: 3em;
+    }
+    h2{
+    font-size: 2em;
+    }
+    h3{
+    font-size: 1.8em;
+    }
+
+.nav-bar ul {
+list-style: none;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 10px;
+}
+#logo{
+font-size: 3em;
+font-weight: 700;
+color: black;
+margin-right: auto;
+cursor: pointer;
+
+}
+.nav-links ul{
+list-style: none;
+display: flex;
+align-items: center;
+}
+.nav-links a{
+font-size: 1em;
+text-decoration: none;
+color: black;
+    padding: 10px;
+    margin: 10px;
+}
+#Home{
+color: blue;
+background-color: #f1f1f1;
+height: 650px;
+width: 1510px;
+display: flex;
+align: center;
+justify-content: center;
+align-items: center;
+align-img: center;
+flex-direction: column;
+
+
+background:url("AI.jpeg")
+
+
+
+
+}
+#Home h2{
+font-weight: 200;
+letter-spacing: .5px;
+}
+
+.nav-links a:hover {
+    color: #F05136;
+}
+#Body{
+background-color: #ADD8E6;
+}
+
+
+#bio{
+display: flex;
+align-items: center;
+background-color: white;
+border: 1px solid white;
+}
+#bio h1 {
+letter-spacing: 0.5px;
+font-size:4em;
+font-weight: 500;
+}
+#bio img {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+margin: 100px;
+border: 1px solid black;
+}
+#bio article{
+margin: 10px;
+}
+ 
+#bio article p{
+padding: 20px 0;
+}
+
+p{
+font-size: 1em;
+}
+.portfolio-icon{
+width: 50px;
+height: 50px;
+}
+.library-icon{
+width: 50px;
+height: 50px;
+}
+#portfolio{
+font-size: medium;
+font-family: Times new Roman, sans-serif;
+background: url(./assets/Porfolio-background.svg);
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.5px;
+    background: #F05136 !important;
+    /* https://css-tricks.com/when-using-important-is-the-right-choice/ */
+    color: white !important;
+    font-size: 1em;
+    border-radius: 5%;
+    cursor: pointer;
+    border-color: black;
+    padding: 10px;
+    font-weight: 50;
+}
+
+
+#portfolio hr {
+
+    width: 400px;
+    margin: 20px auto;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+#portfolio div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+#prortfolio>* {
+margin-top: 20px;
+}
+#portfolio>p {
+font-weight: 100;
+}
+#portfolio div article p.
+h3, img{
+text-align: center;
+padding:20px 5px 0 5px;
+}
+.portfolio.icon{
+text-align: center;
+font-size: 3em;
+color: blue;
+}
+#skills h2{
+text-align: center;
+}
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 1em;
+}
+
+#skills ul li {
+    margin: 10px 0;
+    
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+
+::-webkit-progress-value {
+    background-color: #F05136;
+}
+
+#contact {
+    background-color: #f1f1f1;
+    color: black;
+    align-self: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.input {
+    line-height: 3em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+} 
+.Restaurant-icon{
+width: 50px;
+height:50px;
+}
+
+
+
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="/Static/Style.css">
+    <style>
+
+.container {
+      display: flex;
+      background-color: white;
+      border: 1px solid black;
+    }
+
+    .form-container {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .map-container {
+      flex: 10%;
+      border: 2px solid black;
+    }
+
+    /* Adjust the styling as needed */
+    .map {
+      width: 75%;
+      height: 75%;
+      background-color: white;
+      align:right;
+    }
+
+
+  });
+</style>
+</head>
+
+<body>
+<nav class="nav-bar">
+ <ul id="Body">
+<li id="logo">Pasupathikumar S</li>
+<li class="nav-links">
+<ul>
+<li><a href="#Home">HOME</a></li>
+
+<li> <a href="#bio">BIO</a></li>
+<li><a href="#portfolio">PROJECTS</a></li>
+<li><a href="#skills">SKILLS</a></li>
+<li> <a href="#contact" class="link-button">CONTACT</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="Home">
+<div class="Home">
+ <h2></h2>
+</div>
+ </section>
+
+<!-- section1 -->
+<section id="bio">
+<img src="/Static/Photo.jpg" alt="Profile Photo" />
+<article>
+<h1>PASUPATHIKUMAR S</h1>
+<p>I am Pasupathikumar. I am from Salem, Tamil Nadu, India. I have completed my B.Tech (Information Technology) at MEC(Autonomous).
+Recently, I learn HTML, CSS, Python, and JAVA. I like working with Python, AI, and data science. Recently I completed an AZ-900 Course on the Udemy platform.<br><br>I am a very adaptable person. And my goal is to create a new AI Technology.</p>
+<br>
+
+<a href="/Static/Pasupathikumar (MEC).pdf" class="link-button">Resume_1 : Download My Resume</a>
+
+<a href="/Static/Pasupathikumar Resume(Python).pdf" class="link-button">Resume_2 : Download My Resume</a>
+</article>
+
+
+</section>
+<br>
+<section id="portfolio">
+<h2>My Projects</h2>
+
+<hr/>
+<br><br>
+<div>
+<article>
+<img class="portfolio-icon" src="/Static/portfolio.jpg" alt="Portfolio-icon" />
+<h3><u>Personal Blog</u></h3><br>
+<p>I just created my Personal Blog using Bloggers.com website</p><br>
+ <a href="https://www.blogger.com/blog/posts/2472843032857018523">My Personal Blog</a>
+
+</article>
+<br>
+<article>
+<img class="Restaurant-icon" src="/Static/Cyber security image.jpg" alt="Cyber Threat Detection" >
+<h3><u>Cyber Threat Detection</u></h3>
+<p>In this project, I can detect the Mis-Match and Missing Datas using AI <br> <u><b>Programming language used:</b></u> <br>Python</p>
+</article>
+<br>
+<article>
+<img class="library-icon" src="/Static/Disaster Image.jpg" alt="Disaster Identification">
+<h3><u>Natural Disaster Detection</u></h3>
+<p>In this project, Detect the different Natural Disasters using AI.<br><b><u> Programming language used:</u></b>
+<br>Python</p>
+</article>
+</div>
+
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+<div class="skill-container">
+
+
+<div>
+<h3>Technical Skills</h3>
+<ul>
+<li>HTML</li>
+<progress value="65" max="100"></progress>
+<li>CSS</li>
+<progress value="60" max="100"></progress>
+<li>JAVA</li>
+<progress value="35" max="100"></progress>
+<li>PYTHON</li>
+<progress value="35" max="100"></progress>
+<li>MySQL</li>
+<progress value="33" max="100"></progress>
+</ul>
+</div>
+
+<div>
+
+<h3>Language Skills</h3>
+<ul>
+<li>Tamil(Native Language)</li>
+<progress value="90" max="100"></progress>
+<li>English</li>
+<progress value="60" max="100"></progress>
+</ul>
+</div>
+</div>
+</section>
+<br><br>
+
+
+<h2 id="contact" align="center">Contact Us</h2>
+  <div class="container">
+    <div class="form-container">
+      <form action="mailto:kumarmarimuthu99@gmail.com" method="POST" enctype="text/plain">
+
+        <input type="text" id="name" placeholder="Name" name="name" required><br><br>
+
+        <input type="email" id="email" name="email" placeholder="Mail ID" required><br><br>
+
+        <textarea id="message" name="message"  placeholder="Feedback" required></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="map-container">
+      <div class="map">
+        <!-- Embed your map here, e.g., using an iframe -->
+        <iframe width="755px" height="255px" src="https://www.google.com/maps/embed/v1/place?q=Nextbrain,+Whitefield,+Prasanth+Extension,+Bengaluru,+Karnataka,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
